@@ -1,0 +1,6 @@
+for openmp in collab
+!apt-get install libomp-dev -q
+!apt-get install -y g++ -q
+!apt-get install -y build-essential -q
+!apt-get install -y libomp-dev -q
+!export OMP_NUM_THREADS=4
